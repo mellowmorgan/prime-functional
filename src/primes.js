@@ -8,3 +8,5 @@ export default function primes(number, array = [...Array(number).keys()]){
   }
   return array.filter( e => isPrime(e));
 }
+
+
